@@ -7,5 +7,5 @@ div = a/b
 except (TypeError, ZeroDivisionError):
 div = None
 finally:
-print ("Insideresult:{}".format(div))
+print ("Inside result: {}".format(div))
 return (div)
