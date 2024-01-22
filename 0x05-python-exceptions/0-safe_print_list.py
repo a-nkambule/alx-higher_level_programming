@@ -7,12 +7,12 @@ my_list (list): the list to print elements from.
 x (int): the number of elements of my_list to print.
 Returns: the number of elememts printed
 """
-num = 0
+ret= 0
 for i in range(x):
 try:
 print(my_list[i], end="")
-num += 1
+ret += 1
 except IndexError:
 break
 print("")
-return (num)
+return (ret)
